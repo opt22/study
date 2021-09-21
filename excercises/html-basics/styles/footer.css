@@ -1,0 +1,71 @@
+/* footer styles */
+.footer {
+display: flex;
+justify-content: space-around;
+height:600;
+width:100%;
+background-color:black;
+color:white;
+}
+	.footer > .footer-column  {
+	display: grid;
+	grid-template-columns: 1fr; 
+	grid-row-gap:20px;
+	width:400px;
+	}
+		.footer > .footer-column >.logo {
+		display: flex;
+		justify-content: center;
+		}
+			.footer > .footer-column >.logo img {
+			opacity: 50%;
+			width:200px;
+			height:100%;
+			}
+		.footer > .footer-column > .info {
+		text-transform: uppercase;
+		display:flex;
+		justify-self:center;
+		justify-content:space-around;
+		width: 240px;
+	}
+			.footer > .footer-column > .info > .phone {
+				text-align:center;
+			}
+	
+			.footer > .footer-column > .info > .hours {
+				text-align:center;
+			}
+		.footer > .footer-column > .navbar {
+		display:flex;
+		justify-self:center;
+		justify-content:space-around;
+		width: 400px;
+		text-decoration:none;
+		color:white
+
+		}
+			/* .footer > .footer-column > .navbar > .Home */
+			/* .footer > .footer-column > .navbar > .AboutUs */
+			/* .footer > .footer-column > .navbar > .Menu */
+			/* .footer > .footer-column > .navbar > .Contact */
+
+		.footer > .footer-column > .social {
+			margin-top: 40px;
+			display:flex;
+			justify-self:center;
+			justify-content:space-around;
+			width: 300px;
+		}
+		.footer > .footer-column > .copyright {
+		margin-bottom:42px;
+		color: white;
+		display: flex;
+		justify-self: center ;
+		justify-content: space-around;
+		font-size:0.6em;
+		}
+			/* .footer > .footer-column > .social > .instagram-icon */
+			/* .footer > .footer-column > .social > .twitter-icon */
+			/* .footer > .footer-column > .social > .facebook-icon */
+

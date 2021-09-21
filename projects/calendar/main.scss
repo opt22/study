@@ -1,0 +1,106 @@
+$calendar-length: 35;
+$month-length: 31;
+$month-start: 5 ;
+$weekdays: sunday monday tuesday wednesday thursday friday saturday;
+$sunday:1, 8, 15, 22, 29;
+$monday:2, 9, 16, 23, 30;
+$tuesday:3, 10, 17, 24, 31;
+$wednesday:4, 11, 18, 25, 32;
+$thursday:5, 12, 19, 26, 33;
+$friday:6, 13, 20, 27, 34;
+$saturday:7, 14, 21, 28, 35;
+$month-end: ($month-start + $month-length - 1);
+
+
+.days-wrapper {
+    width:800px;
+    height:580px;
+    background-color:black;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-right:8px;
+    padding-left:8px;
+    padding-top:8px;
+    padding-bottom:8px;
+
+    .day-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .day {
+            width: 100px;
+            height: 100px;
+            background-color:darkgrey;
+            }
+
+             @for $i from $month-start through $month-end {
+            //  @for $i from 1 through $calendar-length {
+                 .day#{$i} {
+                     $calendar-day:$i;
+                         @each $x in $sunday {
+                             @if ($x == $calendar-day){
+                                 background-color:goldenrod;
+                             }
+                         }
+                         @each $x in $monday {
+                             @if ($x == $calendar-day){
+                                 background-color:teal;
+                             }
+                         }
+                         @each $x in $tuesday {
+                             @if ($x == $calendar-day){
+                                 background-color:magenta;
+                             }
+                         }
+                         @each $x in $wednesday {
+                             @if ($x == $calendar-day){
+                                 background-color:burlywood;
+                             }
+                         }
+                         @each $x in $thursday {
+                             @if ($x == $calendar-day){
+                                 background-color:green;
+                             }
+                         }
+                         @each $x in $friday {
+                             @if ($x == $calendar-day){
+                                 background-color:lightblue;
+                             }
+                         }
+                         @each $x in $saturday {
+                             @if ($x == $calendar-day){
+                                 background-color:red;
+                                 // content: $month-day;
+                             }
+                         }
+                    }
+            // @for $z from $month-start through $month-end {
+            //     .day#{$z} {
+            //     $month-day: ($z - $month-start);
+            //     background-color:darkgrey;
+            //     display:flex;
+            //     justify-content:center
+            //     color: black;
+            //     }
+            // }
+                    
+        }
+                    // @for $month-day from $month-start through $month-end {
+                    //     background-color: grey;
+                    // }
+
+
+
+                    //  @if $str-index == " " {
+                    //      $day-of-week:sunday;
+                    //      color:goldenrod;
+                    //      background-color: goldenrod;
+                    // }
+                // }
+}       
+}
+
+
+
+

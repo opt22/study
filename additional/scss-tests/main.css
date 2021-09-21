@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  width: 800;
+  height: 600;
+  background-color: grey;
+  color: black;
+}
+body .wrapper-div {
+  color: blue;
+}
+body .wrapper-div .content-title {
+  color: red;
+}
+body .wrapper-div .content {
+  color: teal;
+  color: goldenrod;
+}/*# sourceMappingURL=main.css.map */

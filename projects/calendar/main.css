@@ -1,0 +1,114 @@
+.days-wrapper {
+  width: 800px;
+  height: 580px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.days-wrapper .day-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.days-wrapper .day-wrapper .day {
+  width: 100px;
+  height: 100px;
+  background-color: darkgrey;
+}
+.days-wrapper .day-wrapper .day5 {
+  background-color: green;
+}
+.days-wrapper .day-wrapper .day6 {
+  background-color: lightblue;
+}
+.days-wrapper .day-wrapper .day7 {
+  background-color: red;
+}
+.days-wrapper .day-wrapper .day8 {
+  background-color: goldenrod;
+}
+.days-wrapper .day-wrapper .day9 {
+  background-color: teal;
+}
+.days-wrapper .day-wrapper .day10 {
+  background-color: magenta;
+}
+.days-wrapper .day-wrapper .day11 {
+  background-color: burlywood;
+}
+.days-wrapper .day-wrapper .day12 {
+  background-color: green;
+}
+.days-wrapper .day-wrapper .day13 {
+  background-color: lightblue;
+}
+.days-wrapper .day-wrapper .day14 {
+  background-color: red;
+}
+.days-wrapper .day-wrapper .day15 {
+  background-color: goldenrod;
+}
+.days-wrapper .day-wrapper .day16 {
+  background-color: teal;
+}
+.days-wrapper .day-wrapper .day17 {
+  background-color: magenta;
+}
+.days-wrapper .day-wrapper .day18 {
+  background-color: burlywood;
+}
+.days-wrapper .day-wrapper .day19 {
+  background-color: green;
+}
+.days-wrapper .day-wrapper .day20 {
+  background-color: lightblue;
+}
+.days-wrapper .day-wrapper .day21 {
+  background-color: red;
+}
+.days-wrapper .day-wrapper .day22 {
+  background-color: goldenrod;
+}
+.days-wrapper .day-wrapper .day23 {
+  background-color: teal;
+}
+.days-wrapper .day-wrapper .day24 {
+  background-color: magenta;
+}
+.days-wrapper .day-wrapper .day25 {
+  background-color: burlywood;
+}
+.days-wrapper .day-wrapper .day26 {
+  background-color: green;
+}
+.days-wrapper .day-wrapper .day27 {
+  background-color: lightblue;
+}
+.days-wrapper .day-wrapper .day28 {
+  background-color: red;
+}
+.days-wrapper .day-wrapper .day29 {
+  background-color: goldenrod;
+}
+.days-wrapper .day-wrapper .day30 {
+  background-color: teal;
+}
+.days-wrapper .day-wrapper .day31 {
+  background-color: magenta;
+}
+.days-wrapper .day-wrapper .day32 {
+  background-color: burlywood;
+}
+.days-wrapper .day-wrapper .day33 {
+  background-color: green;
+}
+.days-wrapper .day-wrapper .day34 {
+  background-color: lightblue;
+}
+.days-wrapper .day-wrapper .day35 {
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */

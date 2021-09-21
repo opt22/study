@@ -1,0 +1,24 @@
+/* common styles */
+html {
+	background-color:black;
+	/* background-color:#191a1d; */
+	color:white;
+}
+body {
+	margin: 0px;
+}
+
+.button {
+color:white;
+border:8px;
+border-radius:10%;
+background-color:grey;
+height:30px;
+width:40px;
+color:white;
+	
+}
+.button > a{
+color:white;
+	
+}

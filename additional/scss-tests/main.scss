@@ -1,0 +1,32 @@
+$t-color:green;
+@mixin c-mixin($t-color:goldenrod){
+    // $t-color:pink;
+    color:$t-color;
+    @content
+}
+
+body {
+    margin:0;
+    width: 800;
+    height: 600;
+    background-color: grey;
+    $t-color: black;
+    color: $t-color;
+    .wrapper-div    {
+        $t-color:blue;
+        color: $t-color;
+        .content-title{
+            $t-color:red;
+            color:$t-color;
+        }
+        .content{
+            $t-color:teal;
+            color:$t-color;
+            @include c-mixin{
+            };
+        }
+    }
+}
+
+
+

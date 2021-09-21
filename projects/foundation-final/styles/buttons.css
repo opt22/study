@@ -1,0 +1,103 @@
+.rh-button-left {
+color:white;
+border:8px;
+border-radius:4%;
+background-color:#36383f; height:48px;
+width:112px;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+.rh-button-left > a {
+text-decoration:none;
+color:white;
+margin-right:8px;
+}
+
+.rh-button-left >i {
+font-size: 1.4em;
+}
+.rh-button-middle {
+color:pink;
+border:8px;
+border-radius:4%;
+background-color:#36383f;
+height:48px;
+width:82px;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.rh-button-middle > a {
+text-decoration:none;
+color:white;
+}
+.mag-glass-icon > i {
+	margin-top:10px;
+	display:flex;
+	align-items:center;
+	font-size: 1.7em;
+}
+
+.rh-button-right {
+color:white;
+border:8px;
+border-radius:4%;
+background-color:#36383f;
+height:48px;
+width:100px;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.rh-button-right > a {
+text-decoration:none;
+color:white;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/* LANDINGPAGE BUTTONS */
+
+.message-buttons-wrapper > .msg-button-left{ 
+background-color: #4bce79;
+color: black;
+border:8px;
+border-radius:4%;
+height:60px;
+width:230px;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size: 1.7em;
+font-weight:400;
+}
+.message-buttons-wrapper > .msg-button-left > a { 
+text-decoration:none;
+color:black;
+}
+
+.message-buttons-wrapper > .msg-button-right{ 
+font-weight:600;
+background-color: black;
+border:8px;
+border-radius:4%;
+height:60px;
+width:180px;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size: 1.7em;
+}
+
+.message-buttons-wrapper > .msg-button-right > a {
+text-decoration:none;
+color:white;
+}
